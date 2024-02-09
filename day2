@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+   <title>HTMl FORM</title>
+</head>
+<body>
+    <h2>checkbox,dropdown and radio buttons</h2><br>
+    <form action="#" method="POST">
+
+    <label for="GENDER">GENDER</label><br><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">MALE</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">FEMALE</label><br>
+    <input type="radio" id="others" name="gender" value="others">
+    <label for="others">OTHERS</label><br><br><br>
+ 
+    <label for="languages">PREFFERD LANGUAGES</label><br>
+    <input type="checkbox" id="html" name="languages" value="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="c++" name="languages" value="c++">
+    <label for="c++">C++</label><br>
+    <input type="checkbox" id="PHP" name="languages" value="PHP">
+    <label for="PHP">PHP</label><br>
+    <input type="checkbox" id="java" name="languages" value="java">
+    <label for="java">JAVA</label><br><br>
+
+    <label for="country">COUNTRY</label>
+    <select id="country" name="country">
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="CANADA">CANADA</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</body>
